@@ -5,6 +5,8 @@ import KeyWords from './KeyWords';
 import SocialMedia from './SocialMedia';
 import Source from './Source';
 import Frequency from './Frequency';
+import GoogleAuth from './GoogleAuth';
+import Submit from './Submit';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <SocialMedia />
       <Source />
       <Frequency />
+      <GoogleAuth />
+      <Submit />
     </div>
   );
 }
