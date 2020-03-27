@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import InitialDescription from './InitialDescription';
-import KeyWords from './KeyWords';
-import SocialMedia from './SocialMedia';
-import Source from './Source';
-import Frequency from './Frequency';
+import InitialDescription from './components/InitialDescription';
+import KeyWords from './components/KeyWords';
+import SocialMedia from './components/SocialMedia';
+import Source from './components/Source';
+import Frequency from './components/Frequency';
 import GoogleAuth from './GoogleAuth';
-import Submit from './Submit';
+import Submit from './components/Submit';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Navbar />
       <InitialDescription/>
       <KeyWords />
       <SocialMedia />
