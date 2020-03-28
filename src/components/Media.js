@@ -1,11 +1,11 @@
 import React from 'react';
-class SocialMedia extends React.Component{
+class Media extends React.Component{
     render(){
         return(
             <div className = 'mainpage'>
-                <p>Social Media</p>
+                <p>Media</p>
             </div>
         )
     }
 }
-export default SocialMedia;
+export default Media;

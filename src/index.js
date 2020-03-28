@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+if (window.location.protocol !== 'https:' && !(window.location.href.includes('localhost'))) {
+  window.location = 'https:' + window.location.href.substring(window.location.protocol.length)
+}
+//console.log(window.location.href);
 
 ReactDOM.render(
   <React.StrictMode>
